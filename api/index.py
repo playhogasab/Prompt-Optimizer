@@ -13,7 +13,7 @@ generation_config = {
   "top_p": 0.95,
   "max_output_tokens": 1024,
 }
-model = genai.GenerativeModel(model_name="gemini-1.5-flash", generation_config=generation_config)
+model = genai.GenerativeModel(model_name="gemini-pro", generation_config=generation_config)
 
 @app.route('/')
 def home():
